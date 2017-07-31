@@ -1,0 +1,7 @@
+[user]
+	name = Eloy Gomez
+	email = eloy@indeos.es
+[github]
+	user = harlock
+[core]
+	excludesfile = ~/.gitignore_global
