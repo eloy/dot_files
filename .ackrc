@@ -33,3 +33,10 @@ priv/static
 
 --ignore-dir
 log
+
+--ignore-dir
+android/app/build
+ 
+--ignore-dir
+ios/build
+

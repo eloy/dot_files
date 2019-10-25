@@ -47,7 +47,17 @@ source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-prompt.
 
 
 # Android NDK root
-# export ANDROID_NDK_ROOT=~/opt/android-ndk-r9d/
+export ANDROID_NDK_ROOT=~/opt/android-ndk-r16b
 export ANDROID_HOME=/Users/harlock/Library/Android/sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
+export PYTHONPATH="/usr/local/Cellar/python/3.6.5_1/bin/python3:$PYTHONPATH"
 
+# OpenSSL
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/openssl/lib"
+export CPPFLAGS="-I/usr/local/opt/openssl/include"
+export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
+
+
+# Rebar3
+export PATH=$PATH:/Users/harlock/.cache/rebar3/bin
