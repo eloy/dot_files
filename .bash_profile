@@ -50,7 +50,10 @@ source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-prompt.
 export ANDROID_NDK_ROOT=~/opt/android-ndk-r16b
 export ANDROID_HOME=/Users/harlock/Library/Android/sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
-export PYTHONPATH="/usr/local/Cellar/python/3.6.5_1/bin/python3:$PYTHONPATH"
+
+# Node and Python
+# export PYTHONPATH=/usr/local/Cellar/python/3.7.4_1/bin/python3
+# export NODE_GYP_FORCE_PYTHON=/usr/local/Cellar/python/3.7.4_1/bin/python3
 
 # OpenSSL
 export PATH="/usr/local/opt/openssl/bin:$PATH"
@@ -61,3 +64,7 @@ export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
 
 # Rebar3
 export PATH=$PATH:/Users/harlock/.cache/rebar3/bin
+
+
+# https://support.apple.com/en-us/HT208050
+export BASH_SILENCE_DEPRECATION_WARNING=1
