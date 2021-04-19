@@ -40,3 +40,12 @@ android/app/build
 --ignore-dir
 ios/build
 
+--ignore-dir
+public/packs/js
+
+--ignore-dir
+public/packs-test/js
+
+--ignore-dir
+coverage
+
