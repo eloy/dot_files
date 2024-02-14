@@ -27,3 +27,9 @@ IRB.conf[:HISTORY_FILE] = "~/.irb_history"
 # Irbtools.add_package :more
 # Irbtools.start
 # require 'json'
+
+
+IRB.conf[:USE_AUTOCOMPLETE] = false
+IRB.conf[:USE_COLORIZE] = false
+
+

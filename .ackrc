@@ -49,3 +49,5 @@ public/packs-test/js
 --ignore-dir
 coverage
 
+--ignore-dir
+ios/Pods

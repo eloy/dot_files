@@ -54,8 +54,9 @@ export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
 
 # Node and Python
 # export PYTHONPATH=/usr/local/Cellar/python/3.7.4_1/bin/python3
-export PYTHONPATH=/Users/harlock/.miniconda/bin
-export NODE_GYP_FORCE_PYTHON=/usr/local/Cellar/python/3.7.4_1/bin/python3
+# export PYTHONPATH=/Users/harlock/.miniconda/bin
+# export NODE_GYP_FORCE_PYTHON=/usr/local/Cellar/python/3.7.4_1/bin/python3
+# export PATH="/usr/local/opt/node@14/bin:$PATH"
 
 # OpenSSL
 export PATH="/usr/local/opt/openssl/bin:$PATH"
